@@ -1,0 +1,13 @@
+type Query {
+  foos: [Foo!]!
+}
+
+type Foo {
+  id: ID!
+  bar: Bar!
+}
+
+type Bar {
+  id: ID!
+  name: String!
+}
